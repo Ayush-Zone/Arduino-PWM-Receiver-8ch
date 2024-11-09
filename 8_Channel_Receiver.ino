@@ -1,4 +1,4 @@
-// 6 Channel Receiver 
+// 8 Channel PWM Receiver 
 // Ayush
 // Sharma
 
@@ -65,12 +65,12 @@ void setup()
   ResetData();
 
   
-  ch1.attach(9);
-  ch2.attach(2);
-  ch3.attach(3);
-  ch4.attach(4);
-  ch5.attach(5);
-  ch6.attach(6);
+  ch1.attach(2);
+  ch2.attach(3);
+  ch3.attach(4);
+  ch4.attach(5);
+  ch5.attach(6);
+  ch6.attach(7);
   ch7.attach(A0);
   ch8.attach(A1);
 
