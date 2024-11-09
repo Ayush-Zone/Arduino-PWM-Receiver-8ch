@@ -1,6 +1,6 @@
 // 8 Channel PWM Receiver 
-// Ayush
-// Sharma
+// Ayush Sharma
+// https://github.com/Ayush-Zone
 
 #include <SPI.h>
 #include <nRF24L01.h>
